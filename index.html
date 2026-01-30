@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Componente CSS do Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Componente CSS com biblioteca de ícones do Bootstrap 5 (https://icons.getbootstrap.com/) -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+        integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-attachment: fixed;
+            background-color: rgb(52, 58, 64);
+            background-image: url("img/bg01.png");
+            background-position: center;
+            background-repeat: repeat;
+        }
+    </style>
+    <title>PrimeProject</title>
+</head>
+
+<body>
+
+    <!-- NavBar do Bootstrap adaptada para o projeto -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Prime
+                <i class="bi bi-kanban-fill text-warning"></i>
+                Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="content.html">Conteúdo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown">Sobre</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="site.html">O site</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contatos</a></li>
+                            <li><a class="dropdown-item" href="privacy.html">Políticas de Privacidade</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex mt-2 mt-sm-0">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Procurar..." required>
+                        <button class="btn btn-primary" type="button"><i class="bi bi-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5 pt-3 pb-2 bg-white">
+        <h2>Título da Página</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil numquam, perspiciatis rem enim facere
+            sequi odit
+            aperiam saepe nisi explicabo neque eos cum soluta beatae magnam! Eligendi in tenetur ullam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eaque alias asperiores molestias expedita
+            deserunt labore, cumque, inventore impedit omnis velit praesentium doloremque animi. Repellendus
+            reiciendis magni veritatis provident consequuntur.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum earum, numquam repudiandae dignissimos
+            ullam nemo sequi, nesciunt quae ratione adipisci, id voluptatibus necessitatibus omnis nobis? Similique
+            voluptates sunt qui omnis.</p>
+    </main>
+
+
+    <footer>
+        <div class="container bg-dark text-light">
+            <div class="d-flex justify-content-around">
+                <div>
+                    <h4 class="m-0 p-2">Redes Sociais:</h4>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="m-0 p-2">Links Rápidos:</h4>
+                    <ul>
+                        <li>Sobre o site</li>
+                        <li>Faça Contato</li>
+                        <li>Privacidade</li>
+                        <li>Sobe Cookies</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between text-center border-top border-secondary">
+                <div><i class="bi bi-house-fill fs-2"></i></div>
+                <div>&copy; 2026 Joca da Silva</div>
+                <div><i class="bi bi-arrow-up-circle-fill fs-2"></i></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Componente JavaScript do Bootstrap 5 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+        integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
