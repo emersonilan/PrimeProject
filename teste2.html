@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Componente CSS do Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Faça Contato</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Faça Contato</h2>
+        <p>Preencha todos os campos abaixo para entrar em contato com a equipe <strong>PrimeProject</strong>.</p>
+
+        <form action="#nada" method="post" class="was-validated">
+
+            <div class="mb-3 mt-3 form-floating">
+                <input type="text" name="name" id="name" placeholder="Preencha seu nome completo" required
+                    minlength="2" class="form-control ">
+                <label for="name" class="form-label">Nome:</label>
+
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Faz isso direito.</div>
+
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Seu e-mail principal." required
+                    class="form-control">
+
+                                    <div class="valid-feedback">&nbsp;</div>
+                <div class="invalid-feedback">E-mail errado.</div>
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="subject" class="form-label">Assunto:</label>
+                <input type="text" name="subject" id="subject" placeholder="Assunto do contato." required minlength="3"
+                    class="form-control ">
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="message" class="form-label">Mensagem:</label>
+                <textarea name="message" id="message" placeholder="Digite sua mensagem." required minlength="4"
+                    class="form-control " rows="4"></textarea>
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="type" class="form-label">Tipo de contato:</label>
+                <select name="type" id="type" class="form-select">
+                    <option value="">-- Selecione --</option>
+                    <option value="comercial">Comercial</option>
+                    <option value="pessoal">Pessoal</option>
+                </select>
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label class="form-label">Suas cores preferidas:</label>
+                <div class="form-check">
+                    <input type="checkbox" name="color" id="blue">
+                    <label for="blue" class="form-label text-primary ps-2 pe-4">Azul</label>
+                    <input type="checkbox" name="color" id="red">
+                    <label for="red" class="form-label text-danger ps-2 pe-4">Vermelho</label>
+                    <input type="checkbox" name="color" id="green">
+                    <label for="green" class="form-label text-success ps-2 pe-4">Verde</label>
+                </div>
+            </div>
+
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Option
+                1
+                <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Option 2
+                <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="optradio">Option 3
+                <label class="form-check-label"></label>
+            </div>
+
+            <div class="mb-3 mt-3">
+                <button type="button" class="btn btn-primary ">Enviar</button>
+            </div>
+
+
+        </form>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- Componente JavaScript do Bootstrap 5 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+        integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
